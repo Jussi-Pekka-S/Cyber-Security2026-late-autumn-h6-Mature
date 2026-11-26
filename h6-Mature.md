@@ -49,27 +49,49 @@ a) Make-belief analysis. Write a short story for choosing a couple of subpoints 
 Make sure they have different expertice, e.g. also outside cybersecurity. You can choose a couple of subpoints (2d, 2e...) on any domain (critical, asset...). 
 Add a screenshot of what they ended up with. (No technical tests on computer required, apart from using the spreadsheet.)
 
-- 
--
--
--
+  Managing assets through their lifecycle:
+
+- We have 5 people from different roles, they are focusing on points 2d and 2e.
+- Sofia: IT operations. "Not all of our OT devices have a good asset inventory. Some of them are still locally maintained in spreadsheets. But the servers have a good inventory!"
+- Mika: Cybersecurity. "Practice 2d is partly implemented, so I agree with Sofia. It's not complete or neither consistently maintained, but the core is in place."
+- Elina: Risk Management. "There are gaps remaining, although the asset list covers most of our critical systems. Partly implemented captures the current state."
+- Jari: Business Owner (Manufacturing). "Change control 2e is better from a production perspective. Smaller changes sometimes bypass it, but major changes have a defined process. In my opinion this is mostly implemented."
+- Laura: Procurement. "We should improve the contract requirements and visibility. Otherwise it's good to see suppliers are included in the asset process. Let's capture this as a development action!"
+
+- Result: Next step is to complete the remaining practices inside the domain, and after that reviewing the overall result. All of the people agreed on this subject.
+<img width="991" height="214" alt="image" src="https://github.com/user-attachments/assets/9f602f1a-8fb0-4d29-a459-de2eaf0fbd39" />
+
 
 b) Sucks or succeeds. How could Kybermittari process be really useless? How could it be really useful? (No tests on computer required.)
 
--
--
--
--
+- In my mind, Kybermittari could potentially suck in a couple of cases like:
+  - If one person does the assessment alone. Because several different aspects and experts are needed to agree on the assessments.
+  - If the organization does not challenge the answers and tries to be generous to the scoring of their processes.
+  - No actions are taken after the assessment is done. 
+  - Instead of making decisions, the scoring of the processes becomes more important for the management.
+  - If the whole process falls in the hands of cybersecurity, without the help from other departments.
+ 
+- From my perspective, Kybermittari succeeds in cases like these:
+  - When the maturity rating is based on evidence and not on opinions.
+  - The findings are actually turned into actions, making the kybermittari an improvement process.
+  - When the organization does not try to fix everything at once, but prioritizes for an example on the business impact.
+  - When there are several experts from different parts inside the organization. This brings more value to the conversations and overall scoring.
+  - When disagreements become agreements. Thus making discoveries for the organization to use in improvement.
 
 c) Competition. What approaches, models or tools could compete with Kybermittari? 
 Are there any benefits or downsides for those? Feel free to find your own sources. (No tests on computer required. 1-2 examples are enough.)
 
--
--
--
--
+- NIST Cybersecurity Framework 2.0: This can be used for organization-wide program in cybersecurity.
+  + Is easy to use for connecting with business objectives. Helps with the support of gap analysis.
+  - This is non-prescriptive, so the organization must define different aspects for achieving desired outcomes.
+
+- CIS Critical Security Controls v8.1: Better than Kybermittari, if the organization needs a prioritized technical improvement backlog.
+  + Safeguards are designed to be measurable and practical,
+  - Not an complete organizational maturity model, primary a control implementation model.
 
 References/Sources:
+- CIS. CIS Critical Security Controls Implementation Groups. URL: https://www.cisecurity.org/controls/implementation-groups. Accessed on 26.11.2026
 - Karvinen, T. Cybermeter, National framework for the assessment of cybersecurity capabilities, User Guide. URL: https://terokarvinen.com/kybermittari/files/Kybermittari_Cybermeter_User_Guide_V1.pdf. Accessed on 26.11.2026
 - Karvinen, T. Kybermittari spreadsheet. URL: https://terokarvinen.com/kybermittari/files/Kybermittarin%20arviointity%C3%B6kalu_v2.1_20230829.xlsx. Accessed on 26.11.2026
 - Karvinen, T. Kybermittari - Traficom security maturity spreadsheet. URL: https://terokarvinen.com/kybermittari/. Accessed on 26.11.2026
+- NIST. CSF 2.0 Profiles. URL: https://www.nist.gov/cyberframework/profiles. Accessed on 26.11.2026
